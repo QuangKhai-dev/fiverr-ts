@@ -1,9 +1,8 @@
+import useRoutesCustom from "./routes/useRoutesCustom";
+
 function App() {
-  return (
-    <>
-      <h1 className="text-red-500">hello</h1>
-    </>
-  );
+  const routes = useRoutesCustom();
+  return routes;
 }
 
 export default App;
